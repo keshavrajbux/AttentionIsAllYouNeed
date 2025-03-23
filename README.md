@@ -103,7 +103,10 @@ The implementation follows the paper closely with configurable hyperparameters:
 ## 🧠 Understanding the Transformer
 
 <p align="center">
-  <img src="https://jalammar.github.io/images/t/transformer_multi-headed_self-attention-recap.png" width="400" alt="Multi-head Attention">
+  <img src="https://jalammar.github.io/images/t/self-attention-matrix-calculation-2.png" width="500" alt="Attention Visualization">
+  <br>
+  <i>Attention visualization showing how each word attends to other words in a sentence. 
+  <a href="https://jalammar.github.io/illustrated-transformer/">Image source: The Illustrated Transformer by Jay Alammar</a></i>
 </p>
 
 Key concepts from the "Attention Is All You Need" paper:
