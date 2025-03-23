@@ -77,8 +77,30 @@ python train_and_visualize.py
 ```
 
 <p align="center">
-  <img src="https://miro.medium.com/max/1400/1*Ua5SyuN1rZjYJJH0Kua3Ow.png" width="500" alt="Attention Visualization">
+  <img src="images/attention_visualization.png" width="500" alt="Attention Visualization">
+  <br>
+  <i>Example of attention visualization. Generate your own by running train_and_visualize.py</i>
 </p>
+
+#### Generating Your Own Visualizations
+
+To generate your own attention visualizations:
+
+1. Run the visualization script:
+   ```bash
+   python train_and_visualize.py
+   ```
+
+2. The script will:
+   - Train a small Transformer model
+   - Extract attention weights from different layers and heads
+   - Generate heatmap visualizations
+   - Save them to the `images/` directory
+
+3. You can modify the `train_and_visualize.py` script to customize:
+   - The model size and training parameters
+   - Which attention layers and heads to visualize
+   - The visualization style and format
 
 ### Machine Translation
 
@@ -124,8 +146,10 @@ Key concepts from the "Attention Is All You Need" paper:
 ## 🌐 Applications
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/LibreTranslate_logo.svg/1200px-LibreTranslate_logo.svg.png" height="100" alt="Translation">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Translate_logo.svg/1200px-Google_Translate_logo.svg.png" height="100" alt="Translation">
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn-icons-png.flaticon.com/512/1183/1183672.png" height="100" alt="Summarization">
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn-icons-png.flaticon.com/512/4406/4406119.png" height="100" alt="Question Answering">
 </p>
 
