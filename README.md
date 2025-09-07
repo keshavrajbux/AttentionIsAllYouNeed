@@ -1,4 +1,4 @@
-# 🤖 Transformer Implementation
+# Transformer Implementation
 <div align="center">
 
 [![GitHub](https://img.shields.io/github/license/keshavrajbux/AttentionIsAllYouNeed?color=blue)](https://github.com/keshavrajbux/AttentionIsAllYouNeed/blob/main/LICENSE)
@@ -17,20 +17,20 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 The Transformer is a revolutionary neural network architecture based entirely on attention mechanisms, dispensing with recurrence and convolutions. It has become the foundation for many state-of-the-art models in natural language processing, such as BERT, GPT, and T5.
 
 This implementation includes:
 
-- ✨ **Multi-Head Attention** - Parallel attention layers for richer representations
-- 📍 **Positional Encoding** - Injecting sequence order information
-- 🧱 **Encoder and Decoder Stacks** - The core architecture components
-- 🔄 **Position-wise Feed-Forward Networks** - Per-position feature transformation
-- 📈 **Learning Rate Scheduler with Warmup** - Advanced optimization techniques
-- 🎭 **Masking for Padding and Future Tokens** - Handling variable-length sequences
+-  **Multi-Head Attention** - Parallel attention layers for richer representations
+-  **Positional Encoding** - Injecting sequence order information
+-  **Encoder and Decoder Stacks** - The core architecture components
+-  **Position-wise Feed-Forward Networks** - Per-position feature transformation
+-  **Learning Rate Scheduler with Warmup** - Advanced optimization techniques
+-  **Masking for Padding and Future Tokens** - Handling variable-length sequences
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```bash
 .
@@ -163,7 +163,7 @@ The Transformer architecture can be used for various natural language processing
 3. **Question Answering** - Providing answers to questions based on a given context
 4. **Text Generation** - Creating coherent text based on a prompt or context
 
-## 📚 Citation
+##  Citation
 
 ```
 @article{vaswani2017attention,
